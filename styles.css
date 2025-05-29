@@ -22,8 +22,11 @@
     color: white;
 }
 
-.principal  {
-    height: 600px;
+.principal1  {
+    padding: 20px 10% 20px 10%;
+}
+
+.principal2    {
     padding: 20px 10% 20px 10%;
 }
 
@@ -49,8 +52,18 @@
     }
 }
 
+.imgNoticia {
+    max-width: max-content;
+    height: max-content;
+}
+
 .h4 {
     font-size: small;
+}
+
+.h3 {
+    font-size: larger;
+    text-align: center;
 }
 
 .p {
