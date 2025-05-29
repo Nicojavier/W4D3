@@ -1,0 +1,36 @@
+.headerSuperior {
+    background-color: rgba(58, 58, 58, 1);
+    color: white;
+}
+
+.headerMedio    {
+    height: 100px;
+}
+
+.headerMenu {
+    background-color: rgb(107, 107, 107);
+    color: white;
+}
+
+.sidebar1   {
+    background-color: rgb(125, 4, 4);
+    color: white;
+}
+
+.sidebar2   {
+    background-color: rgb(177, 163, 0);
+    color: white;
+}
+
+.principal  {
+    height: 600px;
+}
+
+.piePrincipal   {
+    background-color: rgba(58, 58, 58, 1);
+    color: white;
+}
+
+.creditosPrincipal  {
+    color: white;
+}
