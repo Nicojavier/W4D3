@@ -4,11 +4,11 @@
 }
 
 .headerMedio    {
-    height: 100px;
+    background-color: black;
 }
 
 .headerMenu {
-    background-color: rgb(107, 107, 107);
+    background-color: rgb(2, 126, 180);
     color: white;
 }
 
@@ -24,6 +24,7 @@
 
 .principal  {
     height: 600px;
+    padding: 20px 10% 20px 10%;
 }
 
 .piePrincipal   {
@@ -33,4 +34,29 @@
 
 .creditosPrincipal  {
     color: white;
+}
+
+.logo   {
+    width: 150px;
+}
+
+.nav-link   {
+    color: white;
+    font-size: x-small;
+    &:hover {
+        color: white;
+        text-decoration: underline;
+    }
+}
+
+.h4 {
+    font-size: small;
+}
+
+.p {
+    font-size: x-small;
+}
+
+small   {
+    font-size: xx-small;
 }

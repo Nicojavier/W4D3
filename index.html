@@ -3,29 +3,39 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Las Últimas Noticias</title>
+    <title>Zona Gamer</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
     <link rel="stylesheet" href="/styles.css">
 </head>
 <body>
     <header>
         <div class="container-fluid">
-            <div class="row headerSuperior">
-                <div class="col">
-                    BARRA SUPERIOR
-                </div>
-            </div>
             <div class="row headerMedio">
-                <div class="col-3">ANUNCIO 1
+                <div class="col-3">
                 </div>
-                <div class="col-6">LOGO
+                <div class="col-6 text-center">
+                    <img class="logo" src="img/logo.png" alt="Logo">
                 </div>
-                <div class="col-3">ANUNCIO 2
+                <div class="col-3">
                 </div>
             </div>
             <nav>
                 <div class="row headerMenu">
-                    <div class="col">MENU
+                    <div class="col">
+                        <ul class="nav justify-content-center">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Tendencias</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Lo último</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Foro</a>
+                            </li>
+                        </ul>
                     </div>
                 </div>
             </nav>
@@ -34,38 +44,56 @@
     <main>
         <div class="container-fluid">
             <div class="row">
-                <div class="col-3 sidebar1">SIDEBAR 1
-                </div>
-                <div class="col-6 principal">MAIN
-                </div>
-                <div class="col-3 sidebar2">SIDEBAR 2
-                </div>
+                <div class="col principal">
+                    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                            <img src="/img/gta-v-1_dv57.jpg" class="d-block w-100" alt="GTA V">
+                            </div>
+                            <div class="carousel-item">
+                            <img src="/img/league.jpg" class="d-block w-100" alt="League of Legends">
+                            </div>
+                            <div class="carousel-item">
+                            <img src="/img/peZ5EkC9MxG97T8NF1HQDA9U.png" class="d-block w-100" alt="Dead by Daylight">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Anterior</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Siguiente</span>
+                        </button>
+                    </div>
+                    <h1>Últimas Noticias</h1>
+                    </div>
+
             </div>
         </div>
     </main>
     <footer>
         <div class="container-fluid piePrincipal">
-            <div class="row py-4 px-5">
+            <div class="row">
                 <div class="col col-md-4 col-lg-4 text-start">
                     <u class="h4">Redes Sociales</u>
                     <ul class="list-unstyled">
-                        <li>Facebook</li>
-                        <li>Instagram</li>
-                        <li>TikTok</li>
-                        <li>Twitter</li>
+                        <li class="p">Facebook</li>
+                        <li class="p">Instagram</li>
+                        <li class="p">TikTok</li>
+                        <li class="p">Twitter</li>
                     </ul>
                 </div>
                 <div class="col-1 col-md-4 col-lg-4 text-center">
-                    LOGO
                 </div>
                 <div class="col col-md-4 col-lg-4 text-end">
                     <u class="h4">Categorías</u>
                     <ul class="list-unstyled">
-                        <li>Portada</li>
-                        <li>Policial</li>
-                        <li>Deportes</li>
-                        <li>Internacional</li>
-                        <li>Tendencias</li>
+                        <li class="p">Portada</li>
+                        <li class="p">Policial</li>
+                        <li class="p">Deportes</li>
+                        <li class="p">Internacional</li>
+                        <li class="p">Tendencias</li>
                     </ul>
                 </div>
             </div>
